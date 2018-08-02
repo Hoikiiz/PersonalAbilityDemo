@@ -1,13 +1,13 @@
 //
-//  HViewController.h
+//  TreatmentListViewController.h
 //  PersonalAbilityDemo
 //
 //  Created by SunYang on 2018/8/2.
 //  Copyright © 2018年 SunYang. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "HViewController.h"
 
-@interface HViewController : UIViewController
+@interface TreatmentListViewController : HViewController
 
 @end

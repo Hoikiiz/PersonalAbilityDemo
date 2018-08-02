@@ -12,9 +12,24 @@
 		330F92BC2112E4ED0059F8C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 330F92BB2112E4ED0059F8C9 /* Assets.xcassets */; };
 		330F92BF2112E4ED0059F8C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 330F92BD2112E4ED0059F8C9 /* LaunchScreen.storyboard */; };
 		330F92C22112E4ED0059F8C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 330F92C12112E4ED0059F8C9 /* main.m */; };
-		330F92D02112E8920059F8C9 /* HViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 330F92CF2112E8920059F8C9 /* HViewController.m */; };
-		330F92D32112E8AA0059F8C9 /* HNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 330F92D22112E8AA0059F8C9 /* HNavigationController.m */; };
-		330F92D62112E8B70059F8C9 /* HTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 330F92D52112E8B70059F8C9 /* HTableViewCell.m */; };
+		330F92E22112EB540059F8C9 /* UIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 330F92DE2112EB530059F8C9 /* UIView+Category.m */; };
+		330F92E32112EB540059F8C9 /* ObjectForKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 330F92E02112EB530059F8C9 /* ObjectForKey.m */; };
+		330F92EE2112EBC80059F8C9 /* TreatmentListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 330F92EC2112EBC80059F8C9 /* TreatmentListViewController.m */; };
+		330F93052112EBE30059F8C9 /* HViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 330F92FD2112EBE30059F8C9 /* HViewController.m */; };
+		330F93062112EBE30059F8C9 /* HTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 330F93002112EBE30059F8C9 /* HTableViewCell.m */; };
+		330F93072112EBE30059F8C9 /* HNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 330F93032112EBE30059F8C9 /* HNavigationController.m */; };
+		330F93082112EBE30059F8C9 /* HModelObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 330F93042112EBE30059F8C9 /* HModelObject.m */; };
+		330F930E2112F25F0059F8C9 /* ResConfigLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 330F930D2112F25F0059F8C9 /* ResConfigLoader.m */; };
+		330F93112112F2880059F8C9 /* HObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 330F93102112F2880059F8C9 /* HObject.m */; };
+		330F93142112F2E60059F8C9 /* UIColor+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 330F93122112F2E60059F8C9 /* UIColor+Category.m */; };
+		330F93162112F6020059F8C9 /* ResConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 330F93152112F6020059F8C9 /* ResConfig.plist */; };
+		330F93192112FA9F0059F8C9 /* TreatmentInfoStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 330F93182112FA9F0059F8C9 /* TreatmentInfoStore.m */; };
+		330F931B2112FDA50059F8C9 /* treatment_data.json in Resources */ = {isa = PBXBuildFile; fileRef = 330F931A2112FDA50059F8C9 /* treatment_data.json */; };
+		330F931F211304090059F8C9 /* TreatmentListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 330F931E211304090059F8C9 /* TreatmentListCell.m */; };
+		330F932521130DA20059F8C9 /* KeyValueView.m in Sources */ = {isa = PBXBuildFile; fileRef = 330F932421130DA20059F8C9 /* KeyValueView.m */; };
+		330F9328211315190059F8C9 /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330F9327211315190059F8C9 /* ARViewController.swift */; };
+		330F932C211317FC0059F8C9 /* ThumbImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330F932B211317FC0059F8C9 /* ThumbImageManager.swift */; };
+		33B7710A2113329F007AD86A /* 10.mov in Resources */ = {isa = PBXBuildFile; fileRef = 33B771092113329F007AD86A /* 10.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,12 +41,39 @@
 		330F92BE2112E4ED0059F8C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		330F92C02112E4ED0059F8C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		330F92C12112E4ED0059F8C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		330F92CE2112E8920059F8C9 /* HViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HViewController.h; sourceTree = "<group>"; };
-		330F92CF2112E8920059F8C9 /* HViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HViewController.m; sourceTree = "<group>"; };
-		330F92D12112E8AA0059F8C9 /* HNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HNavigationController.h; sourceTree = "<group>"; };
-		330F92D22112E8AA0059F8C9 /* HNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HNavigationController.m; sourceTree = "<group>"; };
-		330F92D42112E8B70059F8C9 /* HTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTableViewCell.h; sourceTree = "<group>"; };
-		330F92D52112E8B70059F8C9 /* HTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTableViewCell.m; sourceTree = "<group>"; };
+		330F92DE2112EB530059F8C9 /* UIView+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Category.m"; sourceTree = "<group>"; };
+		330F92DF2112EB530059F8C9 /* ObjectForKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectForKey.h; sourceTree = "<group>"; };
+		330F92E02112EB530059F8C9 /* ObjectForKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectForKey.m; sourceTree = "<group>"; };
+		330F92E12112EB530059F8C9 /* UIView+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Category.h"; sourceTree = "<group>"; };
+		330F92EB2112EBC80059F8C9 /* TreatmentListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TreatmentListViewController.h; sourceTree = "<group>"; };
+		330F92EC2112EBC80059F8C9 /* TreatmentListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TreatmentListViewController.m; sourceTree = "<group>"; };
+		330F92FD2112EBE30059F8C9 /* HViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HViewController.m; sourceTree = "<group>"; };
+		330F92FE2112EBE30059F8C9 /* HNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HNavigationController.h; sourceTree = "<group>"; };
+		330F92FF2112EBE30059F8C9 /* HModelObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HModelObject.h; sourceTree = "<group>"; };
+		330F93002112EBE30059F8C9 /* HTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTableViewCell.m; sourceTree = "<group>"; };
+		330F93012112EBE30059F8C9 /* HViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HViewController.h; sourceTree = "<group>"; };
+		330F93022112EBE30059F8C9 /* HTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTableViewCell.h; sourceTree = "<group>"; };
+		330F93032112EBE30059F8C9 /* HNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HNavigationController.m; sourceTree = "<group>"; };
+		330F93042112EBE30059F8C9 /* HModelObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HModelObject.m; sourceTree = "<group>"; };
+		330F930B2112EDCB0059F8C9 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		330F930C2112F25F0059F8C9 /* ResConfigLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResConfigLoader.h; sourceTree = "<group>"; };
+		330F930D2112F25F0059F8C9 /* ResConfigLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResConfigLoader.m; sourceTree = "<group>"; };
+		330F930F2112F2880059F8C9 /* HObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HObject.h; sourceTree = "<group>"; };
+		330F93102112F2880059F8C9 /* HObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HObject.m; sourceTree = "<group>"; };
+		330F93122112F2E60059F8C9 /* UIColor+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Category.m"; sourceTree = "<group>"; };
+		330F93132112F2E60059F8C9 /* UIColor+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Category.h"; sourceTree = "<group>"; };
+		330F93152112F6020059F8C9 /* ResConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ResConfig.plist; sourceTree = "<group>"; };
+		330F93172112FA9F0059F8C9 /* TreatmentInfoStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TreatmentInfoStore.h; sourceTree = "<group>"; };
+		330F93182112FA9F0059F8C9 /* TreatmentInfoStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TreatmentInfoStore.m; sourceTree = "<group>"; };
+		330F931A2112FDA50059F8C9 /* treatment_data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = treatment_data.json; sourceTree = "<group>"; };
+		330F931D211304090059F8C9 /* TreatmentListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TreatmentListCell.h; sourceTree = "<group>"; };
+		330F931E211304090059F8C9 /* TreatmentListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TreatmentListCell.m; sourceTree = "<group>"; };
+		330F932321130DA20059F8C9 /* KeyValueView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyValueView.h; sourceTree = "<group>"; };
+		330F932421130DA20059F8C9 /* KeyValueView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyValueView.m; sourceTree = "<group>"; };
+		330F9326211315190059F8C9 /* PersonalAbilityDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PersonalAbilityDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		330F9327211315190059F8C9 /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
+		330F932B211317FC0059F8C9 /* ThumbImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbImageManager.swift; sourceTree = "<group>"; };
+		33B771092113329F007AD86A /* 10.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = 10.mov; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,67 +106,118 @@
 		330F92B12112E4EB0059F8C9 /* PersonalAbilityDemo */ = {
 			isa = PBXGroup;
 			children = (
-				330F92CD2112E87F0059F8C9 /* Core */,
-				330F92CC2112E8680059F8C9 /* ARKitDemo */,
-				330F92C82112E8670059F8C9 /* TreatmentInfo */,
-				330F92B22112E4EB0059F8C9 /* AppDelegate.h */,
-				330F92B32112E4EB0059F8C9 /* AppDelegate.m */,
-				330F92B82112E4EB0059F8C9 /* Main.storyboard */,
+				330F92E62112EB9D0059F8C9 /* src */,
+				330F92DD2112EA5D0059F8C9 /* Category */,
+				330F92E42112EB720059F8C9 /* SupportFiles */,
 				330F92BB2112E4ED0059F8C9 /* Assets.xcassets */,
-				330F92BD2112E4ED0059F8C9 /* LaunchScreen.storyboard */,
 				330F92C02112E4ED0059F8C9 /* Info.plist */,
-				330F92C12112E4ED0059F8C9 /* main.m */,
 			);
 			path = PersonalAbilityDemo;
 			sourceTree = "<group>";
 		};
-		330F92C82112E8670059F8C9 /* TreatmentInfo */ = {
+		330F92DD2112EA5D0059F8C9 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				330F92C92112E8670059F8C9 /* Models */,
-				330F92CA2112E8670059F8C9 /* Controllers */,
-				330F92CB2112E8670059F8C9 /* Views */,
+				330F93132112F2E60059F8C9 /* UIColor+Category.h */,
+				330F93122112F2E60059F8C9 /* UIColor+Category.m */,
+				330F92DF2112EB530059F8C9 /* ObjectForKey.h */,
+				330F92E02112EB530059F8C9 /* ObjectForKey.m */,
+				330F92E12112EB530059F8C9 /* UIView+Category.h */,
+				330F92DE2112EB530059F8C9 /* UIView+Category.m */,
 			);
-			path = TreatmentInfo;
+			path = Category;
 			sourceTree = "<group>";
 		};
-		330F92C92112E8670059F8C9 /* Models */ = {
+		330F92E42112EB720059F8C9 /* SupportFiles */ = {
 			isa = PBXGroup;
 			children = (
+				33B771092113329F007AD86A /* 10.mov */,
+				330F931A2112FDA50059F8C9 /* treatment_data.json */,
+				330F92B22112E4EB0059F8C9 /* AppDelegate.h */,
+				330F92B32112E4EB0059F8C9 /* AppDelegate.m */,
+				330F92B82112E4EB0059F8C9 /* Main.storyboard */,
+				330F92BD2112E4ED0059F8C9 /* LaunchScreen.storyboard */,
+				330F92C12112E4ED0059F8C9 /* main.m */,
+				330F930B2112EDCB0059F8C9 /* PrefixHeader.pch */,
+				330F93152112F6020059F8C9 /* ResConfig.plist */,
 			);
-			path = Models;
+			path = SupportFiles;
 			sourceTree = "<group>";
 		};
-		330F92CA2112E8670059F8C9 /* Controllers */ = {
+		330F92E62112EB9D0059F8C9 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				330F92FC2112EBE30059F8C9 /* Core */,
+				330F92E72112EBC80059F8C9 /* ARKitDemo */,
+				330F92E82112EBC80059F8C9 /* TreatmentInfo */,
 			);
-			path = Controllers;
+			path = src;
 			sourceTree = "<group>";
 		};
-		330F92CB2112E8670059F8C9 /* Views */ = {
+		330F92E72112EBC80059F8C9 /* ARKitDemo */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		330F92CC2112E8680059F8C9 /* ARKitDemo */ = {
-			isa = PBXGroup;
-			children = (
+				330F9327211315190059F8C9 /* ARViewController.swift */,
+				330F9326211315190059F8C9 /* PersonalAbilityDemo-Bridging-Header.h */,
+				330F932B211317FC0059F8C9 /* ThumbImageManager.swift */,
 			);
 			path = ARKitDemo;
 			sourceTree = "<group>";
 		};
-		330F92CD2112E87F0059F8C9 /* Core */ = {
+		330F92E82112EBC80059F8C9 /* TreatmentInfo */ = {
 			isa = PBXGroup;
 			children = (
-				330F92CE2112E8920059F8C9 /* HViewController.h */,
-				330F92CF2112E8920059F8C9 /* HViewController.m */,
-				330F92D12112E8AA0059F8C9 /* HNavigationController.h */,
-				330F92D22112E8AA0059F8C9 /* HNavigationController.m */,
-				330F92D42112E8B70059F8C9 /* HTableViewCell.h */,
-				330F92D52112E8B70059F8C9 /* HTableViewCell.m */,
+				330F92E92112EBC80059F8C9 /* Models */,
+				330F92EA2112EBC80059F8C9 /* Controllers */,
+				330F92ED2112EBC80059F8C9 /* Views */,
+			);
+			path = TreatmentInfo;
+			sourceTree = "<group>";
+		};
+		330F92E92112EBC80059F8C9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				330F93172112FA9F0059F8C9 /* TreatmentInfoStore.h */,
+				330F93182112FA9F0059F8C9 /* TreatmentInfoStore.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		330F92EA2112EBC80059F8C9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				330F92EB2112EBC80059F8C9 /* TreatmentListViewController.h */,
+				330F92EC2112EBC80059F8C9 /* TreatmentListViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		330F92ED2112EBC80059F8C9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				330F931D211304090059F8C9 /* TreatmentListCell.h */,
+				330F931E211304090059F8C9 /* TreatmentListCell.m */,
+				330F932321130DA20059F8C9 /* KeyValueView.h */,
+				330F932421130DA20059F8C9 /* KeyValueView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		330F92FC2112EBE30059F8C9 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				330F92FE2112EBE30059F8C9 /* HNavigationController.h */,
+				330F93032112EBE30059F8C9 /* HNavigationController.m */,
+				330F93012112EBE30059F8C9 /* HViewController.h */,
+				330F92FD2112EBE30059F8C9 /* HViewController.m */,
+				330F93022112EBE30059F8C9 /* HTableViewCell.h */,
+				330F93002112EBE30059F8C9 /* HTableViewCell.m */,
+				330F92FF2112EBE30059F8C9 /* HModelObject.h */,
+				330F93042112EBE30059F8C9 /* HModelObject.m */,
+				330F930C2112F25F0059F8C9 /* ResConfigLoader.h */,
+				330F930D2112F25F0059F8C9 /* ResConfigLoader.m */,
+				330F930F2112F2880059F8C9 /* HObject.h */,
+				330F93102112F2880059F8C9 /* HObject.m */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -160,6 +253,7 @@
 				TargetAttributes = {
 					330F92AE2112E4EB0059F8C9 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
 					};
 				};
 			};
@@ -187,7 +281,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				330F92BF2112E4ED0059F8C9 /* LaunchScreen.storyboard in Resources */,
+				330F93162112F6020059F8C9 /* ResConfig.plist in Resources */,
 				330F92BC2112E4ED0059F8C9 /* Assets.xcassets in Resources */,
+				33B7710A2113329F007AD86A /* 10.mov in Resources */,
+				330F931B2112FDA50059F8C9 /* treatment_data.json in Resources */,
 				330F92BA2112E4EB0059F8C9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -199,11 +296,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				330F92D02112E8920059F8C9 /* HViewController.m in Sources */,
+				330F932C211317FC0059F8C9 /* ThumbImageManager.swift in Sources */,
 				330F92C22112E4ED0059F8C9 /* main.m in Sources */,
-				330F92D32112E8AA0059F8C9 /* HNavigationController.m in Sources */,
-				330F92D62112E8B70059F8C9 /* HTableViewCell.m in Sources */,
+				330F92E32112EB540059F8C9 /* ObjectForKey.m in Sources */,
+				330F93082112EBE30059F8C9 /* HModelObject.m in Sources */,
+				330F9328211315190059F8C9 /* ARViewController.swift in Sources */,
+				330F930E2112F25F0059F8C9 /* ResConfigLoader.m in Sources */,
+				330F92E22112EB540059F8C9 /* UIView+Category.m in Sources */,
+				330F93112112F2880059F8C9 /* HObject.m in Sources */,
+				330F932521130DA20059F8C9 /* KeyValueView.m in Sources */,
+				330F93052112EBE30059F8C9 /* HViewController.m in Sources */,
+				330F93192112FA9F0059F8C9 /* TreatmentInfoStore.m in Sources */,
+				330F931F211304090059F8C9 /* TreatmentListCell.m in Sources */,
+				330F92EE2112EBC80059F8C9 /* TreatmentListViewController.m in Sources */,
 				330F92B42112E4EB0059F8C9 /* AppDelegate.m in Sources */,
+				330F93072112EBE30059F8C9 /* HNavigationController.m in Sources */,
+				330F93062112EBE30059F8C9 /* HTableViewCell.m in Sources */,
+				330F93142112F2E60059F8C9 /* UIColor+Category.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,16 +452,23 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AY6EP74J52;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PREFIX_HEADER = PersonalAbilityDemo/SupportFiles/PrefixHeader.pch;
 				INFOPLIST_FILE = PersonalAbilityDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.taogu.PersonalAbilityDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_OBJC_BRIDGING_HEADER = "PersonalAbilityDemo/src/ARKitDemo/PersonalAbilityDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -360,16 +476,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AY6EP74J52;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PREFIX_HEADER = PersonalAbilityDemo/SupportFiles/PrefixHeader.pch;
 				INFOPLIST_FILE = PersonalAbilityDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.taogu.PersonalAbilityDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_OBJC_BRIDGING_HEADER = "PersonalAbilityDemo/src/ARKitDemo/PersonalAbilityDemo-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

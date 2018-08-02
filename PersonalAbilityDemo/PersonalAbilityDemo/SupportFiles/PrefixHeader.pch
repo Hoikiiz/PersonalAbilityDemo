@@ -1,0 +1,25 @@
+//
+//  PrefixHeader.pch
+//  PersonalAbilityDemo
+//
+//  Created by SunYang on 2018/8/2.
+//  Copyright © 2018年 SunYang. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "ObjectForKey.h"
+#import "UIView+Category.h"
+#import "HViewController.h"
+#import "HNavigationController.h"
+#import "HModelObject.h"
+#import "UIColor+Category.h"
+#import "ResConfigLoader.h"
+#import "KeyValueView.h"
+#import "HTableViewCell.h"
+
+#endif /* PrefixHeader_pch */

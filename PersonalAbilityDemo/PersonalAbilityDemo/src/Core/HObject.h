@@ -1,13 +1,15 @@
 //
-//  HTableViewCell.h
+//  HObject.h
 //  PersonalAbilityDemo
 //
 //  Created by SunYang on 2018/8/2.
 //  Copyright © 2018年 SunYang. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-@interface HTableViewCell : UITableViewCell
+@interface HObject : NSObject
+
+//Hobject
 
 @end
