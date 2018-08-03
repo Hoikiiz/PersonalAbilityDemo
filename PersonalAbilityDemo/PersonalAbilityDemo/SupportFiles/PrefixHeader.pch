@@ -21,5 +21,6 @@
 #import "ResConfigLoader.h"
 #import "KeyValueView.h"
 #import "HTableViewCell.h"
+#import "CommonDefines.h"
 
 #endif /* PrefixHeader_pch */

@@ -54,7 +54,7 @@
 
 #pragma mark - Datas
 
-- (IBAction)loadData {
+- (void)loadData {
     [[TreatmentInfoStore defaultStore] reloadData:^(NSURLSessionDataTask *task) {
         NSLog(@"success");
     } fail:^(NSURLSessionDataTask *task, NSError *error) {
@@ -133,6 +133,11 @@
         NSLog(@"%@", [NSString stringWithFormat:@"Click %@", self.dataSource[indexPath.row].name]);
     }
 }
+
+- (IBAction)reloadItemClick:(id)sender {
+    [self loadData];
+}
+
 
 
 @end

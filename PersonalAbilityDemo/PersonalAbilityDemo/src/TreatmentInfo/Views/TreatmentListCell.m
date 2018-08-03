@@ -61,13 +61,12 @@
 
 #pragma mark - Layouts
 
-#define kTreatmentListCellMargin 16.0
-#define kTreatmentListCellSpacine 8.0
+
 
 - (void)layoutSubviews
 {
     [super layoutSubviews];
-    self.iconButton.frame = CGRectMake(kTreatmentListCellMargin, kTreatmentListCellMargin, 40.0, 40.0);
+    self.iconButton.frame = CGRectMake(kTreatmentListCellMargin, kTreatmentListCellMargin, kTreatmentListCellIconWidth, kTreatmentListCellIconWidth);
     CGFloat nameX = self.iconButton.right + kTreatmentListCellSpacine;
     self.nameLabel.frame = CGRectMake(nameX, self.iconButton.top, self.width - nameX - kTreatmentListCellMargin, self.iconButton.height);
     CGFloat infoY = self.nameLabel.bottom + kTreatmentListCellSpacine;
@@ -87,7 +86,7 @@
     if ([self.actionDelegate respondsToSelector:@selector(onAction:)]) {
         [self.actionDelegate onAction:@{
                                         kCellDelegateActionSenderKey: self,
-                                        kCellDelegateActionSenderKey: @"iconClick"
+                                        kCellDelegateActionActionKey: @"iconClick"
                                         }];
     }
 }

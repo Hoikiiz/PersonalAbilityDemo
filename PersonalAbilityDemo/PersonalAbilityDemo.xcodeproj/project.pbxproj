@@ -74,6 +74,7 @@
 		330F9327211315190059F8C9 /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
 		330F932B211317FC0059F8C9 /* ThumbImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbImageManager.swift; sourceTree = "<group>"; };
 		33B771092113329F007AD86A /* 10.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = 10.mov; sourceTree = "<group>"; };
+		33B7710B2113F18C007AD86A /* CommonDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonDefines.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,6 +219,7 @@
 				330F930D2112F25F0059F8C9 /* ResConfigLoader.m */,
 				330F930F2112F2880059F8C9 /* HObject.h */,
 				330F93102112F2880059F8C9 /* HObject.m */,
+				33B7710B2113F18C007AD86A /* CommonDefines.h */,
 			);
 			path = Core;
 			sourceTree = "<group>";

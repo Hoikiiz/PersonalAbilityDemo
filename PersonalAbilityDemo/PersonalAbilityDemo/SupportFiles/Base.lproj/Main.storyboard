@@ -25,7 +25,7 @@
                     <navigationItem key="navigationItem" title="转诊列表" id="fLK-oe-wSh">
                         <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="f3d-Fk-3Fe">
                             <connections>
-                                <action selector="loadData" destination="BYZ-38-t0r" id="weu-a8-yiP"/>
+                                <action selector="reloadItemClick:" destination="BYZ-38-t0r" id="CLE-Eg-ajI"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -72,7 +72,7 @@
             </objects>
             <point key="canvasLocation" x="113" y="261"/>
         </scene>
-        <!--Item-->
+        <!--ARKit-->
         <scene sceneID="Zhs-T9-Fx8">
             <objects>
                 <viewController id="9RJ-7o-lYo" customClass="ARViewController" customModule="PersonalAbilityDemo" customModuleProvider="target" sceneMemberID="viewController">
@@ -144,7 +144,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="rZt-oE-JNi"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="mZa-Qt-Ubg"/>
+                    <tabBarItem key="tabBarItem" title="ARKit" id="mZa-Qt-Ubg"/>
                     <connections>
                         <outlet property="endButton" destination="PRf-gk-rPw" id="1Ky-l5-ieA"/>
                         <outlet property="sceneView" destination="2Pn-pR-vh0" id="byT-Ir-J8h"/>

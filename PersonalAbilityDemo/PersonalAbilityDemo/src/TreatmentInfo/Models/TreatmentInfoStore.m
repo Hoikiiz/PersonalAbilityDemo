@@ -8,6 +8,9 @@
 
 #import "TreatmentInfoStore.h"
 
+#pragma mark - TreatmentInfoStore
+#pragma mark -
+
 @interface TreatmentInfoStore()
 
 @property (strong, nonatomic) NSMutableArray<TreatmentInfoModel *> *items;
@@ -37,6 +40,9 @@ static TreatmentInfoStore *_treatmentInfoStore;
 - (NSArray<TreatmentInfoModel *> *)allItems {
     return self.items.copy;
 }
+
+#pragma mark - Data Change
+
 - (void)resetItems:(NSArray<TreatmentInfoModel *> *)items {
     self.items = items.mutableCopy;
     NSDictionary *userInfo = @{
@@ -44,6 +50,7 @@ static TreatmentInfoStore *_treatmentInfoStore;
                                };
     [[NSNotificationCenter defaultCenter] postNotificationName:__TreatmentInfoStoreDidChangeNotiName object:nil userInfo:userInfo];
 }
+
 - (void)appendItems:(NSArray<TreatmentInfoModel *> *)items {
     if (items.count > 0) {
         [self.items addObjectsFromArray:items];
@@ -74,6 +81,9 @@ static TreatmentInfoStore *_treatmentInfoStore;
 
 @end
 
+#pragma mark - TreatmentInfoModel
+#pragma mark -
+
 @implementation TreatmentInfoModel
 
 - (NSDictionary *)subModelUserInfo {
@@ -84,8 +94,7 @@ static TreatmentInfoStore *_treatmentInfoStore;
 
 - (CGFloat)__cellHeight__ {
     if (___cellHeight__ == 0) {
-//        此处使用神奇数字计算，即使开发中会根据实际页面计算字体图片，得到高度
-        ___cellHeight__ = 16.0 + 40.0 + 8.0 + self.infos.count * 20.0 + 16.0;
+        ___cellHeight__ = kTreatmentListCellMargin + kTreatmentListCellIconWidth + kTreatmentListCellSpacine + self.infos.count * kTreatmentListCellInfoLineHeight + kTreatmentListCellMargin;
     }
     return ___cellHeight__;
 }
@@ -93,7 +102,7 @@ static TreatmentInfoStore *_treatmentInfoStore;
 - (UIImage *)__iconImage__ {
     if (___iconImage__ == nil) {
         UILabel *label = [UILabel new];
-        label.frame = CGRectMake(0, 0, 40.0, 40.0);
+        label.frame = CGRectMake(0, 0, kTreatmentListCellIconWidth, kTreatmentListCellIconWidth);
         label.text = self.icon;
         label.textColor = [[ResConfigLoader sharedInstance] Color:@"COLOR_ffffff"];
         label.font = [[ResConfigLoader sharedInstance] Font:@"FONT_18"];
@@ -108,10 +117,10 @@ static TreatmentInfoStore *_treatmentInfoStore;
 
 - (UIImage *)__infoImage__ {
     if (___infoImage__ == nil) {
-//        此处使用神奇数字计算，即使开发中会根据实际页面标注宏
-        UIView *container = [[UIView alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width - 32.0 - 40.0 - 8.0, self.infos.count * 20.0)];
+//        此处使用神奇数字计算，实际开发中会根据实际页面标注宏
+        UIView *container = [[UIView alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width - kTreatmentListCellMargin * 2 - kTreatmentListCellIconWidth - kTreatmentListCellSpacine, self.infos.count * kTreatmentListCellInfoLineHeight)];
         [self.infos enumerateObjectsUsingBlock:^(KeyValueModel * _Nonnull model, NSUInteger i, BOOL * _Nonnull stop) {
-            KeyValueView *kv = [[KeyValueView alloc] initWithFrame:CGRectMake(0, 7 + 20 * i, container.width, 13.0)];
+            KeyValueView *kv = [[KeyValueView alloc] initWithFrame:CGRectMake(0, 7 + kTreatmentListCellInfoLineHeight * i, container.width, 13.0)];
             kv.model = model;
             [container addSubview:kv];
         }];
@@ -136,13 +145,16 @@ static TreatmentInfoStore *_treatmentInfoStore;
                      (__bridge id)[[ResConfigLoader sharedInstance] Color:@"COLOR_686868"].CGColor,
                      (__bridge id)[[ResConfigLoader sharedInstance] Color:@"COLOR_b2b2b2"].CGColor
                      ];
-    layer.frame = CGRectMake(0, 0, 40.0, 40.0);
+    layer.frame = CGRectMake(0, 0, kTreatmentListCellIconWidth, kTreatmentListCellIconWidth);
     layer.startPoint = CGPointMake(0.5, 0.0);
     layer.endPoint = CGPointMake(0.5, 1.0);
     return layer;
 }
 
 @end
+
+#pragma mark - KeyValueModel
+#pragma mark -
 
 @implementation KeyValueModel
 @end
